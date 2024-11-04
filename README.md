@@ -24,12 +24,15 @@
 ## 运行方法
 
 主要参数：
+
+```
 python run.py
 --encoder default="GCN-Align"
 --hiddens default="300,300,300" (including in_dim and out_dim)
 --ent_init default='random', choices=['random', 'name']
 --skip_conn default='none', choices=['none', 'highway', 'concatall', 'concat0andl', 'residual', 'concatallhighway']
 --activation default='none', choices=['none', 'elu', 'relu', 'tanh', 'sigmoid']
+```
 
 ## 参考代码
 
